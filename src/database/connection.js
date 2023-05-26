@@ -1,9 +1,9 @@
 import sql from 'mssql';
 
 const dbSettings = {
-    user: 'sa',
-    password: '123456789',
-    server: 'localhost',
+    user: 'joseadmin',
+    password: '06Jose99',
+    server: 'apijose.database.windows.net',
     database: 'db_React_Native',
     options: {
         encrypt: true, // for azure
