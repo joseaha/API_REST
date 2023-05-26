@@ -1,0 +1,25 @@
+@api = http://localhost:8000/persona
+
+GET {{api}}
+###
+POST {{api}}
+Content-Type: application/json
+
+{
+    "ID": "7647",
+    "Nombre": "Jose",
+    "Apellidos": "Alfredo"
+}
+###
+PUT {{api}}/7647
+###
+DELETE {{api}}/7647
+###
+PUT {{api}}/7647
+Content-Type: application/json
+
+{
+    
+    "Nombre": "Jose",
+    "Apellidos": "dsAlfredfdfddo"
+}
